@@ -1,0 +1,13 @@
+version: "3.9"
+
+services:
+  devcontainer:
+    image: "mcr.microsoft.com/devcontainers/python:1-3.12-bullseye"
+    command: /bin/sh -c "while sleep 1000; do :; done"
+    user: vscode
+    ports:
+      - "8080:8080"
+    volumes:
+      - ..:/workspace:cached
+    # env_file:
+    #   - .env

@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "dataanalysis"
+version = "0.1.0"
+description = ""
+authors = ["team_G"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^1.26.4"
+pandas = "^2.2.2"
+matplotlib = "^3.9.0"
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+notebook = "^7.0.6"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
