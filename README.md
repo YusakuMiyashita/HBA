@@ -30,19 +30,13 @@ Githubを利用してコード管理をしていく。
 git clone https://github.com/YusakuMiyashita/HBA.git
 ```
 
-5. データをプルする
+5. Rancher Desktopを起動する
 
-```sh
-dvc pull
-```
+6. VSCodeを起動、コマンドパレットを開き`Dev Containers: Rebuild and Reopen in Container..`または`Dev Containers: Open Folder in Container..`を選択し`HBA`フォルダを選択
 
-6. Rancher Desktopを起動する
+7. VSCode内でNotebookを開き、セルを実行する。その際、カーネルの選択を求められることがあるが、.venv上の`Python 3.12`系を選択すればよい。
 
-7. VSCodeを起動、コマンドパレットを開き`Dev Containers: Rebuild and Reopen in Container..`または`Dev Containers: Open Folder in Container..`を選択し`HBA`フォルダを選択
-
-8. VSCode内でNotebookを開き、セルを実行する。その際、カーネルの選択を求められることがあるが、.venv上の`Python 3.12`系を選択すればよい。
-
-9. コンテナから抜ける場合は、VSCodeの左下の「><」ボタンを押し、`フォルダーをローカルで再度開く`を選択
+8. コンテナから抜ける場合は、VSCodeの左下の「><」ボタンを押し、`フォルダーをローカルで再度開く`を選択
 
 ## フォルダ構成
 [cookiecutter data science project template](https://drivendata.github.io/cookiecutter-data-science/)にしたがってフォルダ構成を作成。  
