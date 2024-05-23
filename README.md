@@ -39,7 +39,7 @@ git clone https://github.com/YusakuMiyashita/HBA.git
 8. コンテナから抜ける場合は、VSCodeの左下の「><」ボタンを押し、`フォルダーをローカルで再度開く`を選択
 
 #### Windowsの場合
-編集中。
+※編集中
 
 ## フォルダ構成
 [cookiecutter data science project template](https://drivendata.github.io/cookiecutter-data-science/)にしたがってフォルダ構成を作成。  
