@@ -11,7 +11,7 @@ HBA：Hospital Bed Analysis
 
 Githubを利用してコード管理をしていく。  
 
-基本的にはタスク単位でブランチを切り、プルリクエストでPM確認の後にマージする運用とする。  
+基本的にはタスク単位でブランチを切り、プルリクエストで宮下が確認の後にマージする運用とする。  
 
 ### 分析環境構築
 
@@ -38,13 +38,16 @@ git clone https://github.com/YusakuMiyashita/HBA.git
 
 8. コンテナから抜ける場合は、VSCodeの左下の「><」ボタンを押し、`フォルダーをローカルで再度開く`を選択
 
+#### Windowsの場合
+編集中。
+
 ## フォルダ構成
 [cookiecutter data science project template](https://drivendata.github.io/cookiecutter-data-science/)にしたがってフォルダ構成を作成。  
 この通りにする必要はないので、適宜見直していく。
 
+
 ------------
 
-    |-- README.md
     |-- csv
     |   `--
     |-- dataanalysis
@@ -58,12 +61,16 @@ git clone https://github.com/YusakuMiyashita/HBA.git
     |   |   `-- __init__.py
     |   `-- visualization
     |       `-- __init__.py
+    |-- .devcontainer
     |-- .gitignore
+    |   |--devcontainer.json
+    |   `--docker-compose.yml
     |-- notebook
     |   `--
     |-- poetry.lock
     |-- preprocessing.py
-    `-- pyproject.toml
+    |-- pyproject.
+    |-- README.md
     
     
 

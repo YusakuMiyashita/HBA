@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "dataanalysis"
+name = "hba"
 version = "0.1.0"
 description = ""
 authors = ["team_G"]
