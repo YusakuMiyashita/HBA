@@ -12,3 +12,4 @@ def fontfix():
     fm.fontManager.addfont(font_path) # フォントマネージャーにフォントを追加
 
     mpl.rcParams['font.family'] = 'MS Gothic'
+    return None
