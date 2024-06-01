@@ -50,7 +50,7 @@ git clone https://github.com/YusakuMiyashita/HBA.git
 
     |-- csv
     |   `--
-    |-- dataanalysis
+    |-- hba
     |   |-- __init__.py
     |   |-- data
     |   |   |-- __init__.py
